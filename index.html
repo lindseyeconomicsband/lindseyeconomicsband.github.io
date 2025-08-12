@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomp Art</title>
+        <link rel="icon" type="image/x-icon" href="../cutout.jpg">
+        <style>
+            body {
+                background-image: url(bg.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                font-family: 'Courier New';
+            }
+            img.rounded {
+                object-fit: cover;
+                border-radius: 50%;
+                height: 100px;
+                width: 100px;
+            }
+            .outlined {
+                color: white;
+                text-shadow:
+                -1px -1px 0 #000,
+                0   -1px 0 #000,
+                1px -1px 0 #000,
+                1px  0   0 #000,
+                1px  1px 0 #000,
+                0    1px 0 #000,
+                -1px  1px 0 #000,
+                -1px  0   0 #000;
+                }
+        </style>
+    </head>
+    <body>
+        <div style="margin:auto; width:33%; padding-top:20%; z-index:10; position:relative">
+            <a href="https://www.instagram.com/lindseyeconomics.band">
+                <div style="display:flex; justify-content:center;">
+                    <img src="../logo.jpg" alt="Logo" class="rounded" style="z-index:10; width:75%; height:160px;">
+                </div>
+            </a>
+            <br>
+            <div style="justify-content:center; background-color: transparent; padding:2px;">
+                <audio preload="auto" controls="controls" style="margin: 0 auto; display: block;">
+                    <source src="../Carousel.ogg" type="application/ogg">
+                </audio>
+				<audio preload="auto" controls="controls" style="margin: 0 auto; display: block;">
+                    <source src="../WGBTY.ogg" type="application/ogg">
+                </audio>
+				<audio preload="auto" controls="controls" style="margin: 0 auto; display: block;">
+                    <source src="../WGBTY.ogg" type="application/ogg">
+                </audio> 
+            </div>
+        </div>
+    </body>
+</html>
